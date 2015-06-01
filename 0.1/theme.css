@@ -1,0 +1,21 @@
+body{background:url("/sites/cphdot/media/bgd.png") repeat;}
+.top-info{background:rgba(148,214,239,0.95);z-index:19;}
+.top-info .contact{font-size:24px;color:#fff;padding:50px 0;}
+.top-logo{padding:210px 0 40px 0;}
+.overlay{background:rgba(255,255,255,0.4);padding:20px;position:relative;left:10%;width:80%;}
+.top-menu{padding:5px 50px;top:0;left:0;right:0;position:fixed;z-index:18;background:rgba(0,0,0,0.4);}
+.top-menu h1{float:left;display:none;}
+.links{float:right;}
+.links a{color:#fff;font-size:22px;padding:2px 0 0 10px;}
+#trade{background:rgba(255,242,151,0.92);padding:100px;}
+#trade h2{font-size:52px;margin:20px 0;}
+#trade h3{font-size:32px;}
+.trade-content{padding:40px 100px 20px 320px;background:url("/sites/cphdot/media/globe.png") center left no-repeat;}
+#trade img{padding:10px;width:100%;}
+#startup{background:rgba(213,148,237,0.93);padding:100px;}
+#startup h2{font-size:52px;margin:20px 0;}
+#startup h3{font-size:32px;}
+.startup-content{padding:40px 100px 20px 250px;background:url("/sites/cphdot/media/startup.png") center left no-repeat;}
+
+#contact{background-color:#fff;color:#222;padding:220px 100px 400px 100px;}
+#foot-contact-info{padding:60px 100px;font-size:22px;color:#666;}

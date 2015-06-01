@@ -1,0 +1,11 @@
+{
+  "name": "cphdot.com",
+  "private": true,
+  "version": "0.0.2",
+  "description": "",
+  "repository": "",
+  "license": "",
+  "dependencies": {
+    "node-static": "~0.7.6"
+  }
+}

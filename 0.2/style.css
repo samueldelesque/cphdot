@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(/clients/cphdot/0.2/fonts/PTSans.woff) format('woff');
+}
+body{background:#fff;font-family: 'PT Sans', sans-serif;letter-spacing:1px;}
+body.fluid #page{margin:0;width:100%;}
+#arrow{position:fixed;right:2px;top:60px;}
+.content{z-index:2;position:relative;padding:10px 5% 40px 5%;min-height:500px;}
+.emphasis{background:#000;overflow:hidden;min-height:200px;box-shadow:0 0 40px #000;}
+.emphasis .menu{position:absolute;width:90%;top:30px;padding:0 5%;overflow:hidden;}
+.emphasis .menu h1,.emphasis .menu h2{display:inline-block;float:left;}
+.emphasis .menu a{color:#fff;font-size:16px;line-height:22px;margin:3px 12px 0 0;text-transform:uppercase;}
+.emphasis .menu .links{float:right;display:inline-block;padding-top:50px;}
+.emphasis img.bgd{width:100%;position:relative;top:0;transition-duration:2s;}
+.menu .links a{background:#000;padding:5px;font-weight:bold;}
+.emphasis .menu .links a:hover{border-bottom:3px solid #fff;}
+.emphasis .menu h1 img,.emphasis .menu h2 img{height:60px;}
+.emphasis .slider{color:#fff;margin-top:0px;background:rgba(0,0,0,0.8);font-size:32px;height:80px;position:fixed;bottom:0;width:100%;left:0;z-index:9;font-family: arial;}
+.emphasis .slider .slide{left:0;padding:17px;padding:16px 5%;text-align:center;width:90%;}
+.footer{background:#222;color:#999;padding:40px 0;}
+.footer h3{font-weight:bold;color:#eee;font-size:26px;}
+.footer p,.footer li{font-size:13px;}
+
+#front .emphasis{max-height:2200px;}
+#front .emphasis .bgd{margin-top:-100px;}
+#front ul{list-style-type:disc;}
+
+#about .emphasis .bgd{margin-top:-50px;}
+#about .emphasis{max-height:700px;}
+#about .about-content{background:rgba(255,255,255,0.2);color:#fff;padding-top:80px;}
+.why{font-size:0.82em;line-height:14px;}
+
+#products .emphasis{margin-bottom:20px;max-height:340px;}
+#products .emphasis h1{margin-top:60px;font-size:38px;text-shadow:1px 1px 8px #000;}
+#products h2.quote{margin:50px;font-size:62px;color:#666;text-shadow:1px 1px 1px #eee;font-style:italic;}
+#products .product img{width:80%;margin-left:10%;margin-top:30px;}
+.product{position:relative;display:inline-block;height:190px;border-radius: 1px;box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);-webkit-transition: opacity 0.15s linear;-moz-transition: opacity 0.15s linear;transition: opacity 0.15s linear;border: 1px solid #D9D9D9;width: 202px;padding:5px;min-height: 158px;margin: 10px;float: left;background: #FFF;}
+.products-container{background:#fff;padding-bottom:50px;margin-top:50px;}
+.product .head{position:absolute;background:rgba(0,0,0,0.6);left:0;bottom:0;right:0;top:0;color:#fff;padding:7px;transition: opacity 0.15s linear;opacity:0;margin:0;}
+.product .head p{line-height:14px;font-size:14px;}
+.product .head h3{line-height:22px;font-size:22px;margin:0;}
+.product:hover .head{opacity:1;}
+
+#partners .emphasis{max-height:200px;}
+.partner{margin:10px 0;background:#f8f8f8;border-radius:20px;height:120px;}
+.partner img{width:94%;max-height:100%;height:auto;margin:20px 0 0 5%;}
+.partner article{padding:5px 20px 0 0;}
+.partner h2{margin:0;}
+.cases{margin:20px 0 0 0;background:#f8f8f8;padding:4px;}
+.cases h3{margin:3px 0;font-size:17px;font-weight:bold;}
+blockquote{font-style:italic;}
+.condensed{font:Arial, Helvetica, sans-serif;font-size:13px;letter-spacing:0;line-height:14px;}
+#voltCaseBtn{color:#000;}
+#lightbox_bgd{top:0;}
+.case-images{background:#222;font-size:14px;line-height:16px;color:#fff;font-family:Arial, Helvetica, sans-serif;}
+
+.hero h1.quote{font-family:"PT Sans";font-size: 32px;line-height: 32px;font-style:italic;}
+.italic{font-style:italic;}
+.huge{font-size:32px;}
+.number3{font-size:132px; text-align:center;color:#FC3;line-height:144px;font-weight:bold;font-family:Arial, Helvetica, sans-serif;}
+.hero{padding:20px 0;}
+.hero *{margin:20px 0;}
+.hero h1{font-size:36px;}
+strong,.orange{color:#FC0;}
+h3.orange{color:#FC0;padding:3px;}
+h1, h2, h3, h4, h5, h6{font-family:Arial, Helvetica, sans-serif;}
+h4{font-size:21px;}
+.caption{font-size:0.9em;font-style:italic;}
+@media (max-width: 767px) {
+	.emphasis .menu .links{float:none;display:block;padding:20px;}
+	.menu .links a{background:#000;padding:3px;margin:3px;}
+	#products .emphasis{height: 140px;}
+	#products .emphasis h1{display:none;}
+	#products .emphasis .bgd{width: 200%;}
+	#products .product{width:90%;display:block;clear:both;height:auto;}
+	.product .head{position:inherit;background:none;color:#222 !important;opacity:1;}
+	.partner{height:auto;}
+	.footer{padding:0 5%;}
+	#products h2.quote{margin:0;font-size:34px;}
+	#about .emphasis .bgd{width: 160%;}
+}
